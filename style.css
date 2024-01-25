@@ -11,15 +11,14 @@ body {
     justify-content: space-between;
     background-color: #1F2937;
     align-items: center;
-    padding-left: 10vw;
-    padding-right: 10vw;
-    margin: 0;
+    padding:1vw 10vw;
 
 }
 
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
+
 }
 
 .header-links {
@@ -31,16 +30,15 @@ body {
 
 ul {
     list-style: none;
-    padding-left: 0;
+    padding: 0;
+    margin: 0;
 }
 
 .hero {
     background-color: #1F2937;
     display: flex;
-    min-height: 503px;
     align-items: center;
-    padding-left: 10vw;
-    padding-right: 10vw;
+    padding: 7vw 10vw;
     margin: 0;
     justify-content: space-between;
     gap: 20px;
@@ -52,11 +50,12 @@ ul {
     flex-direction: column;
     gap: 8px;
     flex: 1;
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
 }
 
 p {
     margin: 0;
+    padding: 0;
 }
 
 .hero-main-text {
@@ -89,13 +88,68 @@ p {
 
 .hero-image-placeholder {
     display: flex;
-    background-color: grey;
+    background-color: rgb(109,116,125);
     font-size: 18px;
     color: #E5E7EB;
     min-width: 40vw;
-    min-height: 226px;
+    min-height: 27vh;
     justify-content: center;
     align-items: center;
     flex: 1;
 }
 
+/* .information {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 75px;
+    gap: 50px;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.information-content {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.box-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+
+.box {
+    display:flex;
+    justify-content: center;
+    min-width: 250px;
+    min-height: 250px;
+    max-width: 250px;
+    border: 2px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 15px;
+    
+}
+
+.box-subtext {
+    color:rgb(72, 74, 77);
+    font-size: 18px;
+    text-align: center;
+    min-width: 254px;
+    max-width: 254px;
+    display: flex;
+    flex-wrap: wrap;
+    
+} */
