@@ -62,13 +62,13 @@ p {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
-    flex: 0;
+    flex: 1;
 }
 
 .hero-sub-text {
     font-size: 18px;
     color: #E5E7EB;
-    flex: 0;
+    flex: 1;
 }
 
 .hero-button {
@@ -78,7 +78,7 @@ p {
     min-height: 30px;
     max-width: 100px;
     max-height: 30px;
-    flex: 0;
+    flex: 1;
     padding: 0;
     border: 0;
     border-radius: 8px;
@@ -98,13 +98,14 @@ p {
     flex: 1;
 }
 
-/* .information {
+.information {
     display: flex;
     flex-direction: column;
-    padding-top: 50px;
-    padding-left: 10vw;
-    padding-right: 10vw;
-    padding-bottom: 75px;
+    padding: 5vw 10vw;
+    align-items: center;
+    /* justify-content: space-around; */
+
+    /*  padding-bottom: 75px; */
     gap: 50px;
 }
 
@@ -117,25 +118,36 @@ p {
     align-items: center;
 }
 
+ 
+
 .information-content {
     display: flex;
     gap: 10px;
-    justify-content: space-between;
+    /* justify-content: space-evenly; */
+    
 }
+
 
 .box-content {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     gap: 6px;
+    flex: 1;
+    flex-wrap: wrap;
 }
+
 
 .box {
     display:flex;
+    flex: 1;
     justify-content: center;
-    min-width: 250px;
-    min-height: 250px;
-    max-width: 250px;
+    align-items: center;
+    min-width: 10vw;
+    min-height: 10vw;
+    max-width: 10vw;
+
     border: 2px;
     border-color: #3882F6;
     border-style: solid;
@@ -143,13 +155,38 @@ p {
     
 }
 
+
 .box-subtext {
     color:rgb(72, 74, 77);
+    flex: 1;
     font-size: 18px;
     text-align: center;
-    min-width: 254px;
-    max-width: 254px;
+    min-width: 10vw;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     
-} */
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 7.5vw 10vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.author {
+    display: flex;
+    font-size: 24px;
+    font-weight: 800;
+    color: #1F2937;
+    justify-content: flex-end;
+}
